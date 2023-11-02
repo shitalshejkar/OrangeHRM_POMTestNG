@@ -1,0 +1,19 @@
+
+2023-10-30 19:23:53 [TestNG-test=Parallel Tests-1] ERROR HttpClient:171 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+2023-10-30 19:23:53 [TestNG-test=Parallel Tests-1] WARN  VersionDetector:123 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+2023-10-30 19:23:53 [TestNG-test=Parallel Tests-1] INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\Acer\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-10-30 19:23:57 [TestNG-test=Parallel Tests-1] ERROR HttpClient:171 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+2023-10-30 19:23:57 [TestNG-test=Parallel Tests-1] WARN  VersionDetector:123 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+2023-10-30 19:23:57 [TestNG-test=Parallel Tests-1] INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\Acer\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-10-30 19:26:17 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Acer\Downloads\POM-Framework-OrangeHRM-last\POM-Framework-OrangeHRM-last\testNG.xml
+
+2023-10-30 19:26:19 [TestNG-test=Parallel Tests-1] ERROR HttpClient:171 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+2023-10-30 19:26:19 [TestNG-test=Parallel Tests-1] WARN  VersionDetector:123 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+2023-10-30 19:26:19 [TestNG-test=Parallel Tests-1] INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\Acer\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-10-30 19:26:22 [TestNG-test=Parallel Tests-1] ERROR HttpClient:171 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+2023-10-30 19:26:22 [TestNG-test=Parallel Tests-1] WARN  VersionDetector:123 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+2023-10-30 19:26:22 [TestNG-test=Parallel Tests-1] INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\Acer\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-10-30 19:29:40 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Acer\Downloads\POM-Framework-OrangeHRM-last\POM-Framework-OrangeHRM-last\testNG.xml
+
