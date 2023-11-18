@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T15:34:27 IST" name="Parallel Testing Suite" finished-at="2023-11-02T15:34:34 IST" duration-ms="6625">
+  <suite started-at="2023-11-18T01:03:54 IST" name="Parallel Testing Suite" finished-at="2023-11-18T01:03:57 IST" duration-ms="2657">
     <groups>
     </groups>
-    <test started-at="2023-11-02T15:34:27 IST" name="Parallel Tests" finished-at="2023-11-02T15:34:34 IST" duration-ms="6625">
+    <test started-at="2023-11-18T01:03:54 IST" name="Parallel Tests" finished-at="2023-11-18T01:03:57 IST" duration-ms="2657">
       <class name="RecruitmentTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:33 IST" name="setup" finished-at="2023-11-02T15:34:34 IST" duration-ms="628" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:56 IST" name="setup" finished-at="2023-11-18T01:03:57 IST" duration-ms="751" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
@@ -33,10 +33,8 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at browser.Browser.getDriver(Browser.java:12)
 at BaseTest.setup(BaseTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
@@ -55,28 +53,28 @@ at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodError: 'void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)'
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 27 more
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test01()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:34 IST" name="test01" finished-at="2023-11-02T15:34:34 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test01()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:57 IST" name="test01" finished-at="2023-11-18T01:03:57 IST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
@@ -88,10 +86,8 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at browser.Browser.getDriver(Browser.java:12)
 at BaseTest.setup(BaseTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
@@ -110,36 +106,36 @@ at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodError: 'void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)'
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 27 more
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:34 IST" name="closeBrowser" finished-at="2023-11-02T15:34:34 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:57 IST" name="closeBrowser" finished-at="2023-11-18T01:03:57 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:34 IST" name="setup" finished-at="2023-11-02T15:34:34 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:57 IST" name="setup" finished-at="2023-11-18T01:03:57 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test02()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:34 IST" name="test02" finished-at="2023-11-02T15:34:34 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test02()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:57 IST" name="test02" finished-at="2023-11-18T01:03:57 IST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
@@ -151,10 +147,8 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at browser.Browser.getDriver(Browser.java:12)
 at BaseTest.setup(BaseTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
@@ -173,34 +167,34 @@ at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodError: 'void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)'
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 27 more
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RecruitmentTest@13e344d]" started-at="2023-11-02T15:34:34 IST" name="closeBrowser" finished-at="2023-11-02T15:34:34 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RecruitmentTest@1f6c9cd8]" started-at="2023-11-18T01:03:57 IST" name="closeBrowser" finished-at="2023-11-18T01:03:57 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- RecruitmentTest -->
       <class name="PIMPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PIMPageTest@2d710f1a]" started-at="2023-11-02T15:34:27 IST" name="setup" finished-at="2023-11-02T15:34:33 IST" duration-ms="5891" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PIMPageTest@52851b44]" started-at="2023-11-18T01:03:54 IST" name="setup" finished-at="2023-11-18T01:03:56 IST" duration-ms="1714" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
@@ -212,10 +206,8 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at browser.Browser.getDriver(Browser.java:12)
 at BaseTest.setup(BaseTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
@@ -234,28 +226,28 @@ at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodError: 'void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)'
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 27 more
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:PIMPageTest@2d710f1a]" started-at="2023-11-02T15:34:33 IST" name="test1" finished-at="2023-11-02T15:34:33 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test1()[pri:0, instance:PIMPageTest@52851b44]" started-at="2023-11-18T01:03:56 IST" name="test1" finished-at="2023-11-18T01:03:56 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-IEFDETE', ip: '192.168.1.6'
+Host info: host: 'DESKTOP-QLT8R1S', ip: '192.168.31.77'
 Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
@@ -267,10 +259,8 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at browser.Browser.getDriver(Browser.java:12)
 at BaseTest.setup(BaseTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
@@ -289,14 +279,14 @@ at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodError: 'void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)'
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-... 27 more
+... 25 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PIMPageTest@2d710f1a]" started-at="2023-11-02T15:34:33 IST" name="closeBrowser" finished-at="2023-11-02T15:34:33 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PIMPageTest@52851b44]" started-at="2023-11-18T01:03:56 IST" name="closeBrowser" finished-at="2023-11-18T01:03:56 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

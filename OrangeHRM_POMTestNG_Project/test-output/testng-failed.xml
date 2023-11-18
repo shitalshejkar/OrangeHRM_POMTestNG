@@ -3,6 +3,13 @@
 <suite name="Failed suite [Parallel Testing Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Parallel Tests(failed)">
     <classes>
+      <class name="PIMPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="test1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- PIMPageTest -->
       <class name="RecruitmentTest">
         <methods>
           <include name="test02"/>
@@ -11,13 +18,6 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- RecruitmentTest -->
-      <class name="PIMPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="test1"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- PIMPageTest -->
     </classes>
   </test> <!-- Parallel Tests(failed) -->
 </suite> <!-- Failed suite [Parallel Testing Suite] -->
